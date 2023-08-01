@@ -1,0 +1,139 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  min-height: 100vh;
+  padding: 30px;
+}
+.match-container {
+  width: 80%;
+}
+.nav-container {
+  background-color: #2c0e3a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.logo {
+  height: 30px;
+  width: 190px;
+}
+.timer-logo {
+  height: 30px;
+  width: 30px;
+  margin-left: 50px;
+  margin-right: 5px;
+  list-style: none;
+}
+.score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.score-heading {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+  list-style: none;
+}
+.span-element {
+  color: #fec653;
+  font-size: 23px;
+  font-family: 'Roboto';
+  list-style: none;
+}
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  padding: 20px;
+  min-height: 100vh;
+}
+.main-image {
+  height: 340px;
+  width: 720px;
+}
+.unordered-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thumbnails-unOrderedList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.gameOver-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  background-size: cover;
+  padding: 20px;
+  min-height: 100vh;
+  width: 45%;
+}
+.trophy-image {
+  height: 320px;
+  width: 390px;
+  margin: 5px;
+}
+.yourScore-heading {
+  color: white;
+  font-size: 20px;
+  margin-top: 0px;
+  font-family: 'Roboto';
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cf60c8;
+  border-width: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.button-heading {
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-left: 5px;
+}
+.last-score {
+  color: white;
+  font-size: 25px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.score-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+.score-name {
+  color: #ffffff;
+  font-size: 12px;
+  margin-right: 5px;
+  list-style: none;
+}

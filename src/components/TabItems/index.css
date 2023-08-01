@@ -1,0 +1,16 @@
+.list-container {
+  list-style: none;
+  margin: 10px;
+}
+.tab-button {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  border-width: 0px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.active-button {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+}
